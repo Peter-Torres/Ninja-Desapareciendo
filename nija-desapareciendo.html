@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ninja desapareciendo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       
+       <script>
+            $(document).ready(function() {
+                $('img').click(function(){
+                    $(this).hide();
+                });
+                $('.restart').click(function(){
+                    $('.ninja').show();
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <img src="img-ninja.jpg" class="ninja" style="width: 300px;" alt="img-ninja">
+        <div>
+            <button class="restart">Restaurar</button>
+        </div>
+    </body>
+</html>
